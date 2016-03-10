@@ -200,7 +200,23 @@ hr.small {
 }
 
 .portfolio-item {
+    position: relative;
     margin-bottom: 30px;
+}
+
+.portfolio-item .description-box {
+    text-align: left;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    min-height: 133px;
+}
+
+.portfolio-item .description-box small {
+    float: right;
+    color: #8AD453;
 }
 
 .img-portfolio {
