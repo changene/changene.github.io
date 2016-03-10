@@ -29,6 +29,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  display: block !important;
   border-radius: 4px;
   -webkit-animation: popin 0.3s;
   animation: popin 0.3s;
