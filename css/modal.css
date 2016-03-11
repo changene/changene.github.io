@@ -29,6 +29,10 @@
   right: 0;
   bottom: 0;
   left: 0;
+<<<<<<< HEAD
+=======
+  display: block !important;
+>>>>>>> master
   border-radius: 4px;
   -webkit-animation: popin 0.3s;
   animation: popin 0.3s;

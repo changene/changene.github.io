@@ -155,7 +155,8 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    /*background: url(../img/bg.jpg) no-repeat center center scroll;*/
+    background: url( http://content.paulreiffer.com/wp-content/uploads/2013/02/Beijing_Panoramic_Forbidden_City_Sun_Landscape_Paul_Reiffer_Photographer_IMG_2561_web.jpg ) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -185,7 +186,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/kaifu_lee.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -199,7 +200,23 @@ hr.small {
 }
 
 .portfolio-item {
+    position: relative;
     margin-bottom: 30px;
+}
+
+.portfolio-item .description-box {
+    text-align: left;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    min-height: 133px;
+}
+
+.portfolio-item .description-box small {
+    float: right;
+    color: #8AD453;
 }
 
 .img-portfolio {
